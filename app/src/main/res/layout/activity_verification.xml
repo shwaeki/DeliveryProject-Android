@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:ignore="HardcodedText"
+
+    tools:context=".Activities.VerificationActivity">
+
+    <include
+        layout="@layout/layout_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+
+
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="@dimen/loginCardRadius"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:layout_marginBottom="@dimen/loginViewsMargin"
+            android:background="@color/whiteCardColor"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="@dimen/loginViewsMargin">
+
+                <TextView
+                    style="@style/headerText"
+                    android:layout_marginTop="@dimen/loginViewsMargin"
+                    android:fontFamily="@font/rubik_light"
+                    android:text="Enter Verification Code"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/primaryTextColor"
+                            android:gravity="center"
+                            android:hint="Verification Code"
+                            android:inputType="number"
+                            android:focusable="true"
+                            android:maxLength="7"
+                            android:maxLines="1"
+                            android:textSize="24sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Enter the code that was sent to your phone number" />
+
+                <Button
+                    android:id="@+id/SendButton"
+                    style="@style/Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:onClick="CheckVerificationCode"
+                    android:paddingHorizontal="30dp"
+                    android:text="Submit" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="14dp"
+        app:srcCompat="@drawable/ic_back"
+        app:tint="#FFFFFF"
+        android:onClick="Back"
+        android:contentDescription="Back" />
+</RelativeLayout>

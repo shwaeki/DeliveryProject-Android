@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "772156683446",
+    "firebase_url": "https://sonic-for-delivery.firebaseio.com",
+    "project_id": "sonic-for-delivery",
+    "storage_bucket": "sonic-for-delivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772156683446:android:5660980620e1ccbe0ce217",
+        "android_client_info": {
+          "package_name": "com.shwaeki.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772156683446-8j691t69gee9ke8iqgtaum05peigl33l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuC0ODJ__QKh8_3f79r-gzg6dqluZOyMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772156683446-8j691t69gee9ke8iqgtaum05peigl33l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<resources>
+    <string name="mapbox_access_token">sk.eyJ1Ijoic2h3YWVraSIsImEiOiJja2p4NDF3dHIwb3Z2MnBxdXY4OWV0aHlwIn0.2CuntFNoYmR0Yx2Ln8HSiQ</string>
+
+    <string name="appLink">https://www.dartfordelivery.online/api/employee/</string>
+    <string name="appLinkCustomer">https://www.dartfordelivery.online/api/customer/</string>
+
+
+    <string name="app_name">Dart For Delivery</string>
+    <string name="header_text">Dart For Delivery</string>
+
+    <string-array name="phones">
+        <item>+972</item>
+        <item>+970</item>
+    </string-array>
+
+    <string-array name="statuses">
+        <item>All Packages</item>
+        <item>Preparation</item>
+        <item>Delivered</item>
+        <item>Received</item>
+        <item>Canceled</item>
+    </string-array>
+
+    <string-array name="cites">
+        <item>القُدس</item>
+        <item>رام الله</item>
+        <item>نابلس</item>
+        <item>بيت لحم</item>
+        <item>الخليل</item>
+        <item>غزّة</item>
+        <item>أريحا</item>
+        <item>جنين</item>
+        <item>صَفَد</item>
+        <item>بئرالسبع</item>
+        <item>الناصرة</item>
+        <item>حيفا</item>
+        <item>يافا</item>
+        <item>طولكرم</item>
+        <item>الرَّملة</item>
+        <item>اللِّد</item>
+        <item>طبريا</item>
+        <item>تل ابيب</item>
+        <item>ام الفحم</item>
+        <item>رهط</item>
+        <item>طمرة</item>
+        <item>شفاعمرو</item>
+        <item>سخنين</item>
+        <item>الكرمل</item>
+        <item>قلنسوة</item>
+        <item>طيرة</item>
+        <item>عرابة</item>
+        <item>المغار</item>
+        <item>كفر مندا</item>
+        <item>كفر كنا</item>
+        <item>كفر قاسم</item>
+        <item>جديدةالمكر</item>
+        <item>يافة</item>
+        <item>مجدالكروم</item>
+        <item>الرينة</item>
+        <item>عرعرة</item>
+        <item>يركا</item>
+        <item>كفر قرع</item>
+        <item>اكسال</item>
+        <item>بيتجان</item>
+        <item>مجدل شمس</item>
+    </string-array>
+</resources>
